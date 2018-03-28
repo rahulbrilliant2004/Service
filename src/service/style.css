@@ -1,0 +1,130 @@
+.SectionOne,
+.SectionTwo {
+  margin-bottom: 20px;
+}
+/*=============================
+Import Roboto Font
+=============================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+.roboto-font{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #444;
+	margin: 0;
+	padding: 0;
+}
+/*=============================
+Defalt style
+=============================*/
+::-moz-selection {
+   color: #fff;
+   background: #FF6000;
+}
+::selection {
+   color: #fff;
+   background: #FF6000;
+}
+a, a:hover{
+   color: #FF6000;
+   -webkit-outline: none;
+   outline: none;
+   text-decoration: none;
+   cursor: pointer;
+}
+a:focus{
+   color: #FF6000;
+   -webkit-outline: none;
+   outline: none;
+   text-decoration: none;
+   cursor: pointer;
+}
+button, button:focus, img, img:focus, input, input:focus, textarea, 
+textarea:focus, select, select:focus, option, option:focus{
+   -webkit-outline: none;
+   outline: none;
+}
+ul{
+   padding: 0;
+   margin: 0;
+}
+img{
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+h1, h2, h3, h4{
+   margin-bottom: 15px;
+   font-style: normal;
+   font-weight: 600;
+   color: #554740;
+   text-transform: capitalize;
+}
+h3{
+   font-weight: 600;
+   font-size: 26px;
+   text-transform: capitalize;
+  }
+h5, h6{
+   color: #554740;	
+   margin-bottom: 15px;
+   font-style: normal;
+   font-weight: 600;
+}
+p{
+   margin: 0;
+   margin-bottom: 20px;
+   line-height: 22px;
+}
+ul{
+   margin: 0;
+   padding: 0;
+}
+li.list-inline{
+   display: inline-block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.clearfix:after, .clearfix:before{
+   content: " ";
+   display: table;
+   clear: both;
+}
+.white-text, .white-text h1, .white-text h2, .white-text h3, .white-text h4, 
+.white-text h5, .white-text h6, .white-text p, .white-text a{
+   color: #fff;
+}
+.userselect-none{
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+.section-title-wrap {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title {
+	color: #031b4e;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+    line-height: 38px;
+}
+.section-subtitle {
+    font-size: 20px;
+    color: #758095;
+    margin: 0;
+    line-height: 24px;
+    margin-top: 14px;
+}
+/*=============================
+End style
+=============================*/
