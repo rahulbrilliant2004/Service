@@ -58,6 +58,9 @@ Index style
 .partner-vorteile-section .section-subtitle{
   margin-bottom: 70px;
 }
+.pv-box-desktop-img img{
+  margin: inherit!important;
+}
 /*=============================
 End style
 =============================*/
