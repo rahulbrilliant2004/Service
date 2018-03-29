@@ -3,8 +3,8 @@ Footer
 ===========================*/
 
 .SectionFive{
-  padding-top: 95px;
-  padding-bottom: 72px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: #55BE90;
   color: #fff;
 }
@@ -33,17 +33,19 @@ Footer
 	margin-right: 15px;
 }
 .footer-form{
-	padding-top: 10px;
+	padding-top: 50px;
 }
 .footer-form input{
 	height: 54px;
 	font-size: 20px;
 	padding: 10px 25px;
 	color: #55BE90;
-	margin-top: 10px;
+	margin: 10px 0px 0px;
+	background: #fff!important;
+	border: 0px;
 }
 .footer-email{
-	margin-right: 10px;
+	margin-right: 10px!important;
 }
 .footer-email-btn{
  	background: #fff;

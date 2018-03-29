@@ -3,8 +3,8 @@
 Index style
 =============================*/
 .it-box-section{
-   padding-top: 20px;
-   padding-bottom: 20px;
+   padding-top: 70px;
+   padding-bottom: 70px;
 }
 .icon-thumb-box {
     margin-bottom: 20px;
@@ -28,7 +28,7 @@ Index style
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
-   min-height: 235px;
+   min-height: 200px;
    -webkit-box-orient: vertical;
    -webkit-box-direction: normal;
    -ms-flex-direction: column;

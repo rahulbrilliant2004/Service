@@ -12,7 +12,10 @@ class ItemsStatistics extends Component {
             <p className="section-subtitle">PEATS bietet digitale Präsentationsmöglichkeiten für Anbieter moderner HR-Tools.</p>
          </div>
           <div className="row">
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 sectionTwo-left-content">
+            <div className="sectionTwo-left-img small-12 medium-12 large-6 img-center">
+              <img src={revenueLogo} className="sectionTwo-img " alt="sectionTwo-right-img" />
+            </div>
+            <div className="small-12 medium-12 large-6 sectionTwo-left-content">
               <div className="row1">
                 <p className="sub-header-title">150.000+ Klicks</p>
                 <p className="sub-header-content">Zeigen das Interesse seit dem ersten Tag</p>
@@ -25,9 +28,6 @@ class ItemsStatistics extends Component {
                 <p className="sub-header-title">12.000 Reichweite</p>
                 <p className="sub-header-content">In den sozialen Medien und im Newsletter<br />haben wir eine große Reichweite</p>
               </div>
-            </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-center">
-              <img src={revenueLogo} className="sectionTwo-img " alt="sectionTwo-right-img" />
             </div>
           </div>
         </div>

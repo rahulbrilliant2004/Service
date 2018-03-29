@@ -14,11 +14,11 @@ class SupplyAndDemand extends Component {
             <h2 className="section-title">We connect supply and demand</h2>
           </div>
           <div className="itb-heading">
-            <h3 className="itb-heading-title">Ihr Produkt</h3>
+            <h3 className="itb-heading-title column-pd">Ihr Produkt</h3>
           </div>
           <div class="icon-thumb-box">
              <div className="row">
-               <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 Grid-view-box">
+               <div className="small-12 medium-6 large-6 column-pd Grid-view-box">
                   <div className="icon-thumb-box itb-first">
                      <div className="itb-inner">
                         <div className="itb-inner-img">
@@ -29,7 +29,7 @@ class SupplyAndDemand extends Component {
                      </div>
                   </div>
                </div>
-               <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 Grid-view-box">
+               <div className="small-12 medium-6 large-6 column-pd Grid-view-box">
                   <div className="icon-thumb-box itb-second">
                      <div className="itb-inner">
                         <div className="itb-inner-img">
@@ -43,10 +43,10 @@ class SupplyAndDemand extends Component {
              </div>
           </div>
           <div className="itb-heading">
-            <h3 className="itb-heading-title">Ihr Produkt</h3>
+            <h3 className="itb-heading-title column-pd">Ihr Produkt</h3>
           </div>
           <div className="row">
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 Grid-view-box">
+            <div className="small-12 medium-6 large-6 column-pd Grid-view-box">
                <div className="icon-thumb-box itb-third">
                   <div className="itb-inner">
                      <div className="itb-inner-img">
@@ -57,7 +57,7 @@ class SupplyAndDemand extends Component {
                   </div>
                </div>
             </div>
-            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 Grid-view-box">
+            <div className="small-12 medium-6 large-6 column-pd Grid-view-box">
                <div className="icon-thumb-box itb-forth">
                   <div className="itb-inner">
                      <div className="itb-inner-img">
