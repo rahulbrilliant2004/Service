@@ -546,17 +546,17 @@ Default Grid(Column)
    margin-left: auto;
 }
 /*@media (min-width: 576px){
-   .container {
+    .container {
       max-width: 540px;
    }
 }*/
 @media (min-width: 768px){
-   .container {
+   .container{
       max-width: 720px;
    }
 }
 @media (min-width: 992px){
-   .container {
+   .container{
       max-width: 960px;
    }
 }
@@ -564,6 +564,21 @@ Default Grid(Column)
    .container {
       max-width: 1140px;
    }
+}
+
+@media print, screen and (min-width: 1024px) and (max-width: 1200px){
+   .footer-form input{
+      max-width: 284px;
+   }
+}
+@media print, screen and (max-width: 1200px){
+   .sectionTwo-img {
+      height: auto!important;
+   }
+   .footer-form{
+      width: 100%!important;
+   }
+
 }
 
 @media print, screen and (max-width: 1023px){
@@ -577,17 +592,62 @@ Default Grid(Column)
    .SectionTwo .row1, .SectionTwo .row2{
       margin-bottom: 0px!important;
    }
+
+   .sectionOne-img, .sectionTwo-img, .pv-box-img img {
+      height: auto!important;
+      max-height: auto!important; 
+      min-height: auto!important; 
+   }
+   .footer-form{
+      padding-top: 15px!important;
+      padding-bottom: 15px!important;
+   }
+   .SectionFive-des{
+      margin: 0px!important;
+   }
+   .footer-form input{
+      margin-top: 0px!important;
+   }
+   .fcontect-wrp{
+      padding-left: 30px;
+   }
+}
+
+@media print, screen and (min-width:850px) and (max-width: 1023px){
+   .pv-box-inner .pv-box-wrap {
+       padding: 10px 20px!important;
+   }
+}
+@media print, screen and (max-width: 849px){
+   .pv-box-inner .pv-box-wrap {
+          padding: 0px!important;
+   }
+   .pv-box-inner .pv-box-wrap:hover {
+       background: transparent!important;
+   }
    .pv-box-desktop-img{
-      display: none;
+      display: none; 
    }
    .pv-box-responsive-img{
       display: block!important;
-      margin: 30px 0px!important;
+      margin: 30px 0px;
    }
-   .pv-box-inner .pv-box-wrap {
-       padding: 0px!important;
+   .pv-right-box, .pv-left-box{
+      width: 100%!important;
+   }
+   .pv-box-inner .pv-box-wrap{
+      max-width: 100%!important;
+   }
+   .partner-vorteile-section{
+      padding-left: 15px;
+      padding-right: 15px; 
+   }
+   .pv-box-inner{
+      padding: 0px!important;
    }
 }
+   
+
 @media print, screen and (min-width: 640px) and (max-width: 991px){
 
    .it-box-section .itb-inner{
@@ -595,8 +655,7 @@ Default Grid(Column)
    }
    .footer-form .footer-email{
       max-width: 250px;
-   }
-   
+   }   
    .it-box-section .itb-inner{
       padding-left: 70px;
       padding-right: 20px;
@@ -613,9 +672,6 @@ Default Grid(Column)
       padding-left: 10px;
       padding-right: 10px;
    }
-   .sectionOne-img {
-      height: 400px;
-   }
    .SectionOne-right-box{
       display: none;
    }
@@ -627,7 +683,7 @@ Default Grid(Column)
       padding-right: 20px;
    }
    .SectionTwo .row{
-      padding: 20px 20px 0px!important; 
+      padding: 20px!important; 
       border-radius: 10px;
    }
    .itb-heading-title{
@@ -639,17 +695,9 @@ Default Grid(Column)
    .SectionFive-des{
       margin-bottom: 0px!important;
    }
-   .fcontect-wrp{
-      padding-left: 30px;
-   }
    .footer-email-btn{
       padding-left: 10px!important;
       padding-right: 10px!important;
-   }
-   .footer-form{
-      padding-top: 15px!important;
-      padding-bottom: 15px!important;
-
    }
    .section-title, .section-subtitle{
       text-align: left;
@@ -667,6 +715,12 @@ Default Grid(Column)
    }
    .partner-vorteile-section .section-subtitle{
       margin-bottom: 0px!important;
+   }
+   .footer-form .footer-email-btn{
+      margin-top: 10px!important;
+   }
+   .partner-vorteile-section .section-title-wrap{
+      padding: 0px 15px;
    }
 }
 

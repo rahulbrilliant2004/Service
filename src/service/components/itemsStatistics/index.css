@@ -50,7 +50,7 @@
   order: 2;
 }
 .SectionTwo .row{
-  padding: 40px; 
+  padding: 40px 40px 60px;  
   background: #fff;
   border-radius: 10px;
 }

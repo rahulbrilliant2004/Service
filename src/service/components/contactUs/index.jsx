@@ -20,7 +20,7 @@ class ContactUs extends Component {
          <div className="SectionFive">
            <div className="container">
              <div className="row">
-               <div className="small-12 medium-6 large-6 column-pd SectionFive-left-content">
+               <div className="small-12 medium-12 large-6 column-pd SectionFive-left-content">
                  <p className="SectionFive-title">
                    Uns Kontaktieren
                  </p>
@@ -29,7 +29,7 @@ class ContactUs extends Component {
                    Oder Rufen Sie uns an, für eine schnellere verbindung.
                  </p>
                </div>
-               <div className="small-12 medium-6 large-6 column-pd footer-form">
+               <div className="small-12 medium-12 large-6 column-pd footer-form">
                  <input type="text" name="Email" placeholder="E-mail" className="footer-email" />
                  <input type="submit" value={submitValue} className="footer-email-btn" />
                </div>

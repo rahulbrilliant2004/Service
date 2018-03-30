@@ -12,9 +12,17 @@ Index style
    -ms-transition: all 03s ease-in-out;
    transition: all 0.3s ease-in-out;
    cursor: pointer;
+   max-width: 500px;
 }
 .pv-box-inner .pv-box-wrap:hover{
    background: #fff;
+}
+.pv-box-inner .pv-box-wrap:hover: .pv-box-img img{
+
+}
+.pv-right-box, .pv-left-box{
+  width: 50%;
+  float: left;
 }
 .pv-box-inner .pv-box-wrap:last-child{
    margin-bottom: 0;
@@ -61,6 +69,15 @@ Index style
 .pv-box-desktop-img img{
   margin: inherit!important;
 }
+.partner-vorteile-section-wrp{
+  max-width: 100%!important;
+  margin: 0 auto;
+}
+.partner-vorteile-section{
+  
+}
+
+
 /*=============================
 End style
 =============================*/

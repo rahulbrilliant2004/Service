@@ -20,18 +20,18 @@ class PartnerBenefits extends Component {
 
     return (
       <div className="partner-vorteile-section">
-        <div className="">
+        <div className="partner-vorteile-section-wrp">
          <div className="section-title-wrap">
             <h2 className="section-title">Partner Vorteile</h2>
             <p className="section-subtitle">PEATS ist das unabhängige Vergleichsportal für HR-Softwarelösungen .</p>
          </div>
           <div className="row">
-            <div className="small-12 medium-12 large-5 img-center">
+            <div className="pv-left-box img-center">
               <div class="pv-box-img pv-box-desktop-img">
                  <img src={imageURL} className="SectionFour-img " alt="SectionFour-left-img" />
               </div>
             </div>
-            <div className="small-12 medium-12 large-6">
+            <div className="pv-right-box">
                <div class="pv-box-inner">
                   <div className="pv-box-wrap" onMouseEnter={() => this.setState({ imageURL: vorteileLogo })}>
                      <h3 className="pv-box-title">Tracken Sie Ihren Erfolg</h3>
