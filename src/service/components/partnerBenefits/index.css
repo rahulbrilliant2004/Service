@@ -74,7 +74,7 @@ Index style
 .pv-left-box{
   position: relative;
 }
-.pv-box-img{
+.pv-left-box .pv-box-img{
   position: absolute;
   top: 0;
   left: 0;
@@ -85,7 +85,7 @@ Index style
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.pv-box-img.img_active{
+.pv-left-box .pv-box-img.img_active{
   visibility: visible;
   opacity: 1;
 }

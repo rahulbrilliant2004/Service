@@ -620,7 +620,8 @@ Default Grid(Column)
 }
 @media print, screen and (max-width: 849px){
    .pv-box-inner .pv-box-wrap {
-          padding: 0px!important;
+      padding: 0px!important;
+      max-width: 100%!important;
    }
    .pv-box-inner .pv-box-wrap:hover {
        background: transparent!important;
@@ -635,15 +636,15 @@ Default Grid(Column)
    .pv-right-box, .pv-left-box{
       width: 100%!important;
    }
-   .pv-box-inner .pv-box-wrap{
-      max-width: 100%!important;
-   }
    .partner-vorteile-section{
       padding-left: 15px;
       padding-right: 15px; 
    }
    .pv-box-inner{
       padding: 0px!important;
+   }
+   .pv-left-box .pv-box-img{
+      display: none;
    }
 }
    
