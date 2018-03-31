@@ -17,9 +17,7 @@ Index style
 .pv-box-inner .pv-box-wrap:hover{
    background: #fff;
 }
-.pv-box-inner .pv-box-wrap:hover: .pv-box-img img{
 
-}
 .pv-right-box, .pv-left-box{
   width: 50%;
   float: left;
@@ -73,9 +71,25 @@ Index style
   max-width: 100%!important;
   margin: 0 auto;
 }
-.partner-vorteile-section{
-  
+.pv-left-box{
+  position: relative;
 }
+.pv-box-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.pv-box-img.img_active{
+  visibility: visible;
+  opacity: 1;
+}
+
 
 
 /*=============================

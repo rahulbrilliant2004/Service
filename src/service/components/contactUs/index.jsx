@@ -33,7 +33,7 @@ class ContactUs extends Component {
                  <input type="text" name="Email" placeholder="E-mail" className="footer-email" />
                  <input type="submit" value={submitValue} className="footer-email-btn" />
                </div>
-               <div class="fcontect-wrp">
+               <div className="fcontect-wrp">
                  <p className="sectionfive-contact sectionfive-phone">
                      <img src={phoneicon}  alt="phoneicon" />040 / 18 05 17 55</p>
                  <p className="sectionfive-contact sectionfive-email"><img src={emailicon}  alt="emailicon" />contact@peats.de</p>

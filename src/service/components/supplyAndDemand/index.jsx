@@ -16,7 +16,7 @@ class SupplyAndDemand extends Component {
           <div className="itb-heading">
             <h3 className="itb-heading-title column-pd">Ihr Produkt</h3>
           </div>
-          <div class="icon-thumb-box">
+          <div className="icon-thumb-box">
              <div className="row">
                <div className="small-12 medium-6 large-6 column-pd Grid-view-box">
                   <div className="icon-thumb-box itb-first">
